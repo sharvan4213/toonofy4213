@@ -1,0 +1,244 @@
+.body{
+    background: #4DA1FA !important;
+    color: white;
+    font-family: 'Nunito',sans-serif !important;
+    /* text-align: center; */
+}
+section{
+    margin-bottom: 40px;
+}
+/* navbar */
+
+
+.nav-items{
+    padding:30px 0 !important;
+    margin-bottom: 50px;
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    transition:400ms
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+
+/* video container */
+
+.video-section{
+    text-align: center;
+    font: normal normal normal 35px Nunito;
+    color: #E4E4E4;
+}
+
+.video-container{
+    position: relative;
+    width: 100%;
+}
+.video-container > i {
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 6vw;
+    box-shadow: 10px 10px 10px #00000045;
+    color: #FC2222;
+}
+.intro-video {
+    background: transparent url('./images/map-animation-800x600-phone-005.svg') 0% 0% no-repeat;
+    border: 1px solid #707070;
+    border-radius: 35px;
+    width: 100%;
+}
+/* ****************icon section******************** */
+
+.icon-section{
+    text-align: center;
+    font: normal normal normal 35px Nunito;
+    color: #E4E4E4;
+}
+.icon-div{
+    background: transparent radial-gradient(closest-side at 50% 50%, #48A4F6 0%, #2F8AE4 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #72BBFF;
+    border-radius: 35px;
+    padding:30px;
+    margin: 5px;
+    justify-items: center;
+    opacity: 1;
+}
+.div-icon-title{
+    align-items: center;
+    font-weight:bold;
+    line-height: 0;
+    padding: 30px;
+    color: #005AB2;
+    transition: 400ms ease;
+}
+
+.div-icon-title:hover{
+    transform : scale(1.08);
+    color: #E4E4E4;
+}
+
+.div-icon-title > a{
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.div-icon{
+    background-size: cover;
+    height: 9vw;
+    cursor: pointer;
+    width: 9vw;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+
+.div-icon-1{
+    background-image:url('./images/1.svg');
+    
+}
+.div-icon-2{
+    background-image:url('./images/2.svg');  
+}
+.div-icon-3{
+    background-image:url('./images/3.svg'); 
+}
+.div-icon-4{
+    background-image:url('./images/4.svg');
+}
+.div-icon-5{
+    background-image:url('./images/5.svg');
+}
+.div-icon-6{
+    background-image:url('./images/6.svg');
+}
+.div-icon-7{
+    background-image:url('./images/7.svg');
+}
+.div-icon-8{
+    background-image:url('./images/8.svg');
+}
+.div-icon-9{
+    background-image:url('./images/9.svg');
+}
+.div-icon-10{
+    background-image:url('./images/10.svg');
+}
+.div-icon-11{
+    background-image:url('./images/11.svg');
+}
+.div-icon-12{
+    background-image:url('./images/12.svg');
+}
+.div-icon-13{
+    background-image:url('./images/13.svg');
+}
+.div-icon-14{
+    background-image:url('./images/14.svg');
+}
+.div-icon-15{
+    background-image:url('./images/15.svg');
+}
+.div-icon-16{
+    background-image:url('./images/16.svg'); 
+}
+.div-icon-17{
+    background-image:url('./images/17.svg');
+}
+.div-icon-18{
+    background-image:url('./images/18.svg');
+}
+.div-icon-19{
+    background-image:url('./images/19.svg'); 
+}
+.div-icon-20{
+    background-image:url('./images/20.svg'); 
+}
+
+
+/************************************************* */
+
+hr{
+    background-color: #81BEFF;
+    height: 1px;
+    width: 100%;
+    margin-left: 0;
+}
+/***************** footer *********************/
+
+footer{
+    margin-top: 40px;
+}
+
+.footer-context-alignment{
+    text-align: left;
+    
+}
+.footer-context-title{
+    margin-top: 20px;
+    font: normal normal bold 20px/50px Nunito;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+}
+.footer-company-logo-div{
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.footer-company-logo-div >p{
+    font: normal normal normal 18px/30px Nunito;
+}
+
+.footer-contact-link-info{
+    margin-bottom: 40px;
+    padding: 30px;
+    justify-content:space-evenly;
+    border-radius: 35px;
+    justify-items: left;
+    background: #377DC8;
+}
+
+
+.unorder-list{
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    font: normal normal normal 20px/50px Nunito;
+    font-size: 20px;
+    color: #E4E4E4;
+}
+.unorder-list >li:hover{
+    color: #FEFEFE;
+    cursor: pointer;
+}
+
+
+.footer-bottom{
+    padding:15px;
+    border-radius: 24px;
+    background: #377DC8;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footer-bottom-content{
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2;
+}
+
+.footer-bottom-icon > a {
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+}
